@@ -1,15 +1,19 @@
+/*
+@author Pius Lo
+@file Board.cpp
+@date October 1, 2021
+*/
 #include <iostream>
 #include <vector>
 #include <cstdlib>
 #include "Board.h"
+
 using namespace std;
 
 const int NUM_ROWS = 10;
 const int NUM_COLS = 10;
 const int SHIP_LENGTH = 3;
 const int NUM_SHIPS = 4;
-
-
 /*
 * Default constructor for Board class
 */

@@ -1,4 +1,10 @@
+/*
+@author Pius Lo
+@file PlayerBoard.cpp
+@date October 1, 2021
+*/
 #include "PlayerBoard.h"
+
 /*
 * Changes the '-' to a '0' when the player misses
 * @param input_x the inputted x value

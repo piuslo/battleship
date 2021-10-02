@@ -1,9 +1,15 @@
+/*
+@author Pius Lo
+@file OpponentBoard.cpp
+@date October 1, 2021
+*/
 #include "OpponentBoard.h"
 #include <cstdlib>
 #include <vector>
 #include <iostream>
 
 using namespace std;
+
 const int NUM_ROWS = 10;
 const int NUM_COLS = 10;
 const int SHIP_LENGTH = 3;

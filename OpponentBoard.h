@@ -1,6 +1,12 @@
+/*
+@author Pius Lo
+@file OpponentBoard.h
+@date October 1, 2021
+*/
 #ifndef OPPONENTBOARD_H
 #define OPPONENTBOARD_H
 #include "Board.h"
+
 class OpponentBoard : public Board {
 public:
     void assign_ships();

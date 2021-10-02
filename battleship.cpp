@@ -1,7 +1,14 @@
+/*
+@author Pius Lo
+@file battleship.cpp
+@date October 1, 2021
+To play: give valid inputs and don't hit the same ship twice otherwise in different
+spots otherwise the program will think you've hit multiple ships when you've just
+hit two blocks of the ship.
+*/
 #include <iostream>
 #include <vector>
 #include <cstdlib>
-
 #include "Board.h"
 #include "OpponentBoard.h"
 #include "PlayerBoard.h"

@@ -1,8 +1,12 @@
+/*
+@author Pius Lo
+@file Board.h
+@date October 1, 2021
+*/
 #ifndef BOARD_H
 #define BOARD_H
 #include <cstdlib>
 #include <vector>
-
 
 class Board {
 protected:
@@ -16,8 +20,5 @@ public:
     virtual void miss(int input_x, int input_y);
     virtual void hit(int input_x, int input_y);
 };
-
-
-
 
 #endif
