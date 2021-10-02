@@ -38,15 +38,7 @@ void OpponentBoard::assign_ships() {
 * Provides pop-up when the player chooses a spot thats been hit
 */
 void OpponentBoard::hit_already() {
-    // start_color();
-    // init_pair(1, COLOR_WHITE, COLOR_GREEN);
-    // attron(COLOR_PAIR(1));
-    // addstr("You have hit this spot already!");
     cout << "You've hit this spot already!" << endl;
-    // attroff(COLOR_PAIR(1));
-    // refresh();
-    // getch();
-    // endwin();
 }
 
 /*
@@ -71,19 +63,12 @@ void OpponentBoard::hit_ship() {
 * @return true if ship is hit, else false
 */
 bool OpponentBoard::play(int input_x, int input_y) {
-    // initscr();
     if (board_vector[input_x][input_y] == 'S') {
-        // hit_ship();
-        // delwin(win);
         board_vector[input_x][input_y] = 'X';
         return true;
     } else if (board_vector[input_x][input_y] == '-') {
-        // missed_ship();
-        // delwin(win);
         return false;
     } else if (board_vector[input_x][input_y] == 'X' || board_vector[input_x][input_y] == '0') {
-        // hit_already();
-        // delwin(win);
         return false;
     }
     return true;
